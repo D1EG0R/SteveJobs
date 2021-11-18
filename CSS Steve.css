@@ -1,0 +1,84 @@
+h1::first-letter {
+    font-size: 120px;
+    color: black;
+}
+
+
+h1 {
+    color: blue;
+    text-align:center;
+}
+
+
+h2 {
+    color: blue;
+    text-align:center;
+    cursor: pointer;
+}
+
+
+span:hover {
+    background-color: rgb(248, 252, 1);
+    color: red;
+}
+
+  
+body {
+    background-color: rgb(167, 214, 216);
+}
+
+
+.rojo {
+    color: red;
+}
+
+
+#texto {
+    font-size: 14.7px;
+    text-align:justify;
+}
+
+
+#texto::first-line {
+      color:red;
+}
+
+
+.imagen {
+    float: right;
+}
+
+
+.unic {
+    font-size: 11.5px;
+    font-style: italic;
+}
+
+
+a#visitado {
+    background-color: blue;
+    color:white;
+    line-height:0px;
+}
+
+
+a.link {
+    background-color: white;
+    color: blue;
+    line-height:0px;
+}
+
+
+li::before {
+    counter-increment: miContador = 1;
+    content: counters(miContador);
+}
+
+
+ol {
+    margin:0;
+    margin: 0px;
+    padding: 14px;
+    font-size: 14px;
+    line-height:28px;
+}
